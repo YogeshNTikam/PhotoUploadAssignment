@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PhotoUpload</string>
+
+    <string name="camera_txt">Camera</string>
+    <string name="gallery_txt">Gallery</string>
+    <string name="operation_btn_txt">Particular operation</string>
+    <string name="upload_btn_txt">Upload To DRIVE</string>
+    <string name="camera_string">Open Camera</string>
+    <string name="gallery_string">Open Gallery</string>
+</resources>

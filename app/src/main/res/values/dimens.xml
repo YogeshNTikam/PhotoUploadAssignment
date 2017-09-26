@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top_camera_btn">114dp</dimen>
+    <dimen name="pad_left_rigt_main_btns">50dp</dimen>
+    <dimen name="margin_top_gallery_btn">31dp</dimen>
+    <dimen name="height_recycler_view">300dp</dimen>
+    <dimen name="margin_top_operation_btn">20dp</dimen>
+    <dimen name="padding_operation_btn">20dp</dimen>
+    <dimen name="img_upload_margin_top">50dp</dimen>
+    <dimen name="margin_top_img_row">5dp</dimen>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="honestdeveloper.photoupload.ImageProcessingActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/img_display_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_recycler_view"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/operation_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_display_recycler"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/margin_top_operation_btn"
+            android:background="@android:color/holo_blue_bright"
+            android:padding="@dimen/padding_operation_btn"
+            android:text="@string/operation_btn_txt"/>
+
+        <Button
+            android:id="@+id/upload_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/operation_btn"
+            android:layout_alignStart="@+id/operation_btn"
+            android:layout_below="@+id/operation_btn"
+            android:layout_marginTop="@dimen/img_upload_margin_top"
+            android:background="@android:color/holo_green_light"
+            android:text="@string/upload_btn_txt"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</ScrollView>

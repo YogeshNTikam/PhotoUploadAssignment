@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1038415685309",
+    "project_id": "default-demo-app-62875"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038415685309:android:194b63aae1651f8b",
+        "android_client_info": {
+          "package_name": "honestdeveloper.photoupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038415685309-d431hu6n7p1t6tpmk44tpu4qs5snubtp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "honestdeveloper.photoupload",
+            "certificate_hash": "020bc3a207ec94c0c1192776cbd8ef8e44834b0c"
+          }
+        },
+        {
+          "client_id": "1038415685309-o7482g1949gq3k3b48p0ujp8um1f6s3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWRcH57xbPfVdWwl-fvqGcqHPLpn7SMgo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
